@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    background-color: #ebebeb;
+}
+.barrasup{
+    align-items: center;
+}
+.contendorSuperior{
+    display: flex;
+    flex-grow: 8;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+.logo{
+    width: 25%; 
+    margin: auto;
+}
+.barraBusqueda{
+    height: 50px;
+    position: relative;
+    flex-grow: 5;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.est-barraBusqueda{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border-style: none;
+}
+.boton-barrabusqueda{
+    background-color: transparent;
+    color: black;
+    font-size: 25px;
+}
+.botonbuscar{
+    border: none;
+    background: transparent;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
+.compracuota{
+    display: block;
+    flex-grow: 2;
+    margin: 17px 0px;
+}
+.compra-cuotas{
+    font-size: 12px;
+    text-align: center;
+    margin: 5px;
+}
+header {
+    background-color: #eac926;
+    padding: 24px;
+}
+.burger-menu{
+    background-color: #1259c3;
+    width: 45px;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+}
+.fas{
+    color: #ffffff;
+}
+.navbar-izq, .navbar-der{
+    display: none;
+    list-style: none;
+    margin: 20px 0px;
+}
+.links-navbar{
+    text-decoration: none;
+    color: black;
+}
+.form-cp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+}
+.form-ci{
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 85%;
+    height: 26px;
+    padding: 10px;
+}
+.boton-enviarform{
+    border-radius: 5px;
+    margin: 10px;
+    border: none;
+    background-color: #eac926;
+    padding: 10px;
+    font-weight: bolder;
+}
+footer{
+    margin-top: 40px;
+    background-color: white;
+    padding: 30px;
+}
+.pie{
+    text-align: center;
+    padding: 0px 0px 10px;
+}
+.pie:hover{
+    .icono{
+        color: #eac926;
+    } 
+}
+.icono{
+    font-size: 2em;
+    color: #1259c3;
+}
+@media(min-width:460px){
+    .barranavegacion{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .op{
+        margin: 0px 10px;
+    }
+    
+    .compracuota{
+        display: block;
+        flex-grow: 0.33;
+    }
+    .barraBusqueda{
+        display: block;
+        flex-grow: 0.33;
+    }
+    .logo{
+        display: block;
+        flex-grow: 1;
+    }
+    .barrasup{
+        display: flex;
+    }
+    .est-barraBusqueda{
+        flex-grow: 0.33;
+    }
+    
+}
+@media(min-width:768px){
+    .barranavegacion{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .navbar-izq{
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+    .navbar-der{
+        display: flex;
+        flex-direction: row;
+        text-align: right;
+    }
+    .op{
+        margin: 0px 10px;
+    }
+    .compracuota{
+        display: block;
+        flex-grow: 0.33;
+    }
+    .barraBusqueda{
+        display: block;
+        flex-grow: 0.33;
+    }
+    .logo{
+        display: block;
+        flex-grow: 0.33;
+    }
+    .footer{
+        display: flex;
+    }
+    .pie{
+        margin: 10px;
+    }
+    .form-ci{
+        margin: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 45%;
+        height: 26px;
+        padding: 10px;
+    }
+}
